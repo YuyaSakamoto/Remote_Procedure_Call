@@ -1,0 +1,13 @@
+{
+  "request"{
+    "method": "subtract",
+    "params": [42, 23],
+    "param_types": [int, int],
+    "id": 1
+  }
+  "response"{
+    "results: "19",
+    "result_types": "int",
+    "id": 1
+  }
+}
