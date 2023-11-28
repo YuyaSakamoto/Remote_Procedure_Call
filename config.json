@@ -1,12 +1,18 @@
 {
-  "request"{
-    "method": "subtract",
-    "params": [42, 23],
-    "param_types": [int, int],
+  "request": {
+    "method": "validAnagram",
+    "params": [
+      "abcde",
+      "ebcda",
+      "acdea"
+    ],
+    "param_types": [
+      "strArr"
+    ],
     "id": 1
-  }
-  "response"{
-    "results: "19",
+  },
+  "response": {
+    "results": 19,
     "result_types": "int",
     "id": 1
   }
