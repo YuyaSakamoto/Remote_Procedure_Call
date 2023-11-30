@@ -1,10 +1,9 @@
-from servlet import server_socket
+from servlet.server_socket import server_socket
 
 
 def main():
     sock = server_socket()
-    # ソケットの作成とバインド
-    # リクエストの処理やレスポンスなどの処理を呼び出すだけ
+    sock.startSock()
 
 
 if __name__ == "__main__":
