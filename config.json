@@ -1,4 +1,5 @@
 {
+  "filepath": "/tmp/socket_file",
   "request": {
     "method": "validAnagram",
     "params": [
