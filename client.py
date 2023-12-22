@@ -14,9 +14,7 @@ except socket.error as err:
     sys.exit()
 
 try:
-    request = json.dumps(
-        {"method": "nroot", "params": [10, 100], "param_types": ["int", "int"], "id": 1}
-    )
+    request = json.dumps({"method": "nroot", "params": [10, 100], "id": 1})
     print("Request is :", request)
     sock.sendall(request.encode())
 
