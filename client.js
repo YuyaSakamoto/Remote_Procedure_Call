@@ -27,10 +27,11 @@ function readUserInput(question) {
 
 (async function main() {
 
-    method = await readUserInput('Input Method --> ');
+    method = await readUserInput('Input Method is selecting a number\n 1 : floor, 2 : nroot, 3 : reverse, 4 : validAnagram, 5 : sort \n-- > ');
     params = await readUserInput('Input params --> ');
     id = await readUserInput('Input Id --> ');
 
+    method = config['function'][method]
     request.method = method == "" ? request.method : method;
     request.params = params == "" ? request.params : params;
     request.id = id == "" ? request.id : id;

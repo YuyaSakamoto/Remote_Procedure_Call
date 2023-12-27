@@ -58,7 +58,7 @@ class server_method:
             result = function_Hashmap[method](params)
             response_Data = {"results": result, "id": id}
         else:
-            response_Data = {"results": "error method", "id": id}
+            response_Data = {"error": "error method", "id": id}
         response_Data = json.dumps(response_Data)
         return response_Data
 

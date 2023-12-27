@@ -1,3 +1,10 @@
 {
-  "filepath": "/tmp/socket_file"
+  "filepath": "/tmp/socket_file",
+  "function": {
+    "1": "floor",
+    "2": "nroot",
+    "3": "reverse",
+    "4": "validAnagram",
+    "5": "sort"
+  }
 }
