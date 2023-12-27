@@ -38,7 +38,7 @@ function readUserInput(question) {
     console.log(request);
 
     client.connect(server_address, () => {
-        console.lot('Connected to server');
+        console.log('Connected to server');
 
         client.write(JSON.stringify(request));
     });
